@@ -1,0 +1,90 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background: rgb(105, 196, 224);
+    margin: 5px;
+    padding: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+}
+.containar{
+    background-color: rgb(105, 196, 224);
+    height: 450px;
+}
+.menu-bar{
+    text-align: center;  
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li{
+    width: 100px;
+    color: white;
+    font-family: Montserrat;
+}
+.menu-bar{
+    float: right;
+}
+.btn {
+    position: relative;
+    font-family: Montserrat;
+    border: 2px solid;
+    padding: 5px 15px;
+    text-decoration: none;
+    bottom: 8px;
+    border-radius: 5px;
+    color: white;
+}
+.content h1 {
+    position: relative;
+    text-align: center;
+    font-family: Montserrat;
+    top: 80px;
+    color: white;
+}
+.content p {
+    position: relative;
+    font-family: Montserrat;
+    text-align: center;
+    top: 100px;
+    color: white;
+}
+
+.menu-box{
+    display: inline-block;
+    border-radius: 5px;
+    margin: 60px;
+    padding: 20px;
+    width: 325px;
+    height: 280px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+.menu-box{
+    position: relative;
+    bottom: 100px;
+    background-color: white;  
+}
+.menu-box h2 {
+    position: relative;
+    font-family: Montserrat;
+    top: 35px;
+}
+.menu-box p{
+    position: relative;
+    font-family: Montserrat;
+    top: 50px;
+}
+
+
